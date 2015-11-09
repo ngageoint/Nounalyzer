@@ -1,0 +1,72 @@
+body {
+	font-family: Futura, sans-serif;
+	background-color: #1E4D7C;
+	font-size: 13px;
+}
+
+h2 {
+  font-family: Futura;
+  margin: 0 auto;
+  padding: 15px;
+  position: relative;
+  color: #1E4D7C;
+  font-size: 30px;
+}
+
+p {
+	color: #1E4D7C;
+	font-size: 12px;
+	margin-bottom: 17px;
+}
+
+a {
+	color: #1E4D7C;
+	font-size: 12px;
+	margin-bottom: 17px;
+	text-decoration: none;
+}
+a:after { content:"\A"; white-space:pre; }
+
+.title {
+	top: 17%;
+}
+
+
+/*
+	colors
+*/
+.lightBlue {
+	background-color: #EBF3F9;
+}
+.lightOrange {
+	background-color: #FFF3EA;
+}
+.lightGreen {
+	background-color: #E0F0E0;
+}
+.lightRed {
+	background-color: #FAE6E1;
+}
+
+
+.panel {
+	height: 100%;
+	width: 100%;
+	margin-bottom: 100px
+
+}
+
+.display#section-slides, .display#section-wipes {
+	height: 100%;
+	width: 100%;
+	background-image: none;
+}
+
+.display#section-slides .panel > div, .display#section-wipes .panel > div {
+	font-size: 15px;
+	color: white;
+	position: relative;
+	display: block;
+	height: 0;
+	overflow: visible;
+}

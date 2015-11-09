@@ -1,0 +1,179 @@
+html,
+body {
+  margin: 0;
+  height: 100%
+}
+text {
+  font-family: Futura;
+  font: 10px sans-serif;
+}
+
+h1,
+p {
+  font-family: Futura;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #E0EFEF;
+}
+
+header {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+section {
+  text-align: center;
+  color: #E0EFEF;
+}
+
+.full-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 900;
+  height: 100%; /* makes panels the entire window height */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+          background-color: #1E4D7C;
+}
+/* entered */
+.entered {
+		-webkit-transform: translateY(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+				-ms-transform: translateY(-100%);  /* IE 9 */
+						transform: translateY(-100%);  /* Firefox 16+, IE 10+, Opera */
+
+		-webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+						transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+label {
+  display: block;
+}
+
+input[type="text"] {
+  position: relative;
+  z-index: 900;
+  display: block;
+  margin: 0;
+  width: 97%;
+  font-family: Futura;
+  font-size: 18px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  -ms-border-radius: none;
+  -o-border-radius: none;
+  border-radius: none;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+
+/* lists */
+ul.input-list {
+  list-style: none;
+  margin: 0 0px;
+  padding: 0;
+}
+ul.input-list li {
+  display: block;
+  padding: 30px 0;
+  width: 100%;
+}
+
+
+/* style for input box*/
+.drop input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  -webkit-transition: border 0.3s;
+  -moz-transition: border 0.3s;
+  -o-transition: border 0.3s;
+  transition: border 0.3s;
+}
+.drop input[type="text"]:focus, .drop input[type="text"].focus {
+  border-bottom: solid 4px #76C043;
+}
+
+
+
+
+
+/* background frame */
+.background {
+	position: absolute;
+  top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  z-index: 500;
+	background-color: #808285;
+}
+
+
+.show {
+	opacity: 1;
+}
+
+.hide {
+	opacity: 0;
+}
+
+
+
+.info {
+  position:absolute;
+  text-anchor:middle;
+  font-size:16px;
+  fill:#ededed;
+  letter-spacing:0.3px;
+}
+
+.container{
+  width: 50%;
+  height: 50%;
+}
+
+.btn {
+  font-family: Futura;
+  padding: 10px 15px;
+  background: #80C2D4;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  width: 100px;
+  margin-left: -65px;
+}
+
+.error {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 400px;
+  margin-top: -100px;
+  margin-left: -200px;
+  width: 400px;
+}
