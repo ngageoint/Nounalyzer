@@ -17,6 +17,11 @@ p {
   color: #E0EFEF;
 }
 
+sub {
+  left: 50%;
+  margin-left: -10%;
+}
+
 header {
   position: fixed;
   top: 10px;
@@ -69,7 +74,7 @@ input[type="text"] {
   z-index: 900;
   display: block;
   margin: 0;
-  width: 97%;
+  width: 99%;
   font-family: Futura;
   font-size: 18px;
   -webkit-appearance: none;
