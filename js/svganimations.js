@@ -2,7 +2,7 @@
  * code modified from the first demo of dorops.com
  * http://tympanus.net/codrops/2013/12/30/svg-drawing-animation/
  */
-(function() {
+function draw() {
 
 	'use strict';
 
@@ -97,4 +97,4 @@
 	init();
 
 
-})();
+};

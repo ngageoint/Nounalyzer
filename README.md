@@ -5,6 +5,9 @@ Origin
 
 Nounalizer was developed at the [National Geospatial-Intelligence Agency](http://www.nga.mil). Analysts were spending too much time monitoring RSS feeds of news articles. Nounalizer helps distill this information faster than reading and presents the data in a visually pleasing manner. The underlying idea that provides the theory for why this works is that important things are nouns and will be mentioned more (in aggregate) than things that are not important. Let's then show noun frequency for individual RSS feeds.
 
+
+![Demo](https://github.com/ngageoint/Nounalizer/blob/master/images/demo.gif)
+
 Architecture
 --------
 
@@ -36,4 +39,3 @@ javascript:
 * [d3js](https://github.com/mbostock/d3)  --  [Copyright](https://github.com/mbostock/d3/blob/master/LICENSE) (c) 2010-2015, Michael Bostock
 * [ScrollMagic](http://scrollmagic.io/)  --  MIT
 * [jquery](https://jquery.com/)  --  [Copyright](https://github.com/jquery/jquery/blob/master/LICENSE.txt) jQuery Foundation and other contributors
-* [underscore.js](underscore.js)  --  [Copyright](https://github.com/jashkenas/underscore/blob/master/LICENSE) (c) 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
