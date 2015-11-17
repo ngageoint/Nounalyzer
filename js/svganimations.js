@@ -84,6 +84,7 @@
 
 	function init() {
 		var seal = document.getElementById('seal');
+		seal.classList.remove('hide');
 		var svg = new SVGEl( seal );
 
 		setTimeout(function( seal ) {

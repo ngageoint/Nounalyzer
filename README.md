@@ -21,7 +21,7 @@ Directory Structure
 * `index.html`  --  main welcome page for Nounalizer
 * `python.php`  --  file that is called by `index.html` to execute `python/rss.py`
 * `rats.html`  --  the best error page ever made
-* `results.html`  --  displays aggregate results; displays comma-separated files following `/results.html?q=`
+* `results.html`  --  displays aggregate results of comma-separated files names in `data/` which are referenced following `q=` tag in the url of the file
 * `seal.png`  --  NGA seal referenced in `index.html` for introduction page
 
 Dependencies

@@ -1,6 +1,10 @@
 import io, os, sys, types, shutil, json
 from datetime import datetime
 
+# Servers can sometimes get upset if you don't tell them
+# where to look for feedparser and Goose, considre adding
+# sys.path.inser(0,//PATH TO PACKAGES//)
+
 import feedparser, operator
 from goose import Goose
 
@@ -10,7 +14,7 @@ from spacy.parts_of_speech import NOUN
 
 
 # location on server for goose to write temp files
-goose_dir = '/tmp/rss/'
+tmp_dir = '/tmp/rss/'
 
 # location on server for data files to be written
 data_dir = './data/'
@@ -20,7 +24,7 @@ data_dir = './data/'
 def extractArticle(url):
     from goose.configuration import Configuration
     config = Configuration()
-    config.local_storage_path = goose_dir
+    config.local_storage_path = tmp_dir
     return Goose(config).extract(url=url)
 
 ## bump up count of word in wordict
@@ -32,16 +36,16 @@ def addCount(wordict,word):
 
 
 def build(rss):
-    # prepare goose_dir
-    if os.path.exists(goose_dir):
-        shutil.rmtree(goose_dir)
-    os.mkdir(goose_dir)
+    # prepare tmp_dir
+    if os.path.exists(tmp_dir):
+        shutil.rmtree(tmp_dir)
+    os.mkdir(tmp_dir)
     # string to keep track of the files that are written
     filesWritten = ""
     # analyze the feed
     feed = feedparser.parse(rss)
     if (feed['feed'] == {}): #could not parse properly
-        print "Error: input does not year a viable rss feed"
+        print "Error: input does not yield a viable rss feed"
         sys.exit(0);
     # prepare spacy and entity metadata
     nlp = spacy.en.English()
