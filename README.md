@@ -6,7 +6,7 @@ Origin
 Nounalizer was developed at the [National Geospatial-Intelligence Agency](http://www.nga.mil). Analysts were spending too much time monitoring RSS feeds of news articles. Nounalizer helps distill this information faster than reading and presents the data in a visually pleasing manner. The underlying idea that provides the theory for why this works is that important things are nouns and will be mentioned more (in aggregate) than things that are not important. Let's then show noun frequency for individual RSS feeds.
 
 
-![Demo](https://github.com/ngageoint/Nounalizer/blob/master/images/demo.gif)
+![Demo](https://github.com/ngageoint/Nounalizer/blob/master/images/demo_comp.gif)
 
 Architecture
 --------
