@@ -211,7 +211,6 @@
 			<!-- <a class="btn entered hide" href="http://www.nytimes.com">Results</a> -->
 		</div>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="js/classie.js"></script>
 		<script src="js/svganimations.js"></script>
 		<script src='http://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin.js?r=12'></script>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js'></script>
@@ -230,7 +229,7 @@
 		<script type="text/javascript">
       $('#rss').keydown(function(event) {
         if (event.keyCode == 13) {
-					classie.addClass(document.getElementById('rssEntry'), 'entered');
+					document.getElementById('rssEntry').classList.add( 'entered');
           console.log($('#rss').val())
           $.ajax({
             type: "POST",
@@ -243,8 +242,8 @@
 										window.location = "/rats.html";
 									} else {
 										// Add class to indicate that the course
-										classie.addClass(container, 'entered');
-										classie.addClass(container, 'hide');
+										container.classList.add( 'entered');
+										container.classList.add( 'hide');
 
 										btn = document.createElement("a");
 										btn.setAttribute("class", "btn entered hide");
@@ -253,9 +252,9 @@
 										btn.appendChild(node);
 
 										var element = document.getElementById("processing");
-										element.appendChild(btn)
+										element.appendChild(btn);
 										setTimeout(function(){
-											classie.removeClass(document.getElementsByClassName('btn')[0],'hide')
+											document.getElementsByClassName('btn')[0].classList.remove('hide');
 										}, 859);
 									}
               }

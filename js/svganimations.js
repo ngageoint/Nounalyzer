@@ -78,8 +78,8 @@
 	};
 
 	SVGEl.prototype.showImage = function() {
-		classie.add( this.image, 'show' );
-		classie.add( this.el, 'hide' );
+		this.image.classList.add( 'show' );
+		this.el.classList.add( 'hide' );
 	};
 
 	function init() {
