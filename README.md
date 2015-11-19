@@ -38,7 +38,7 @@ javascript:
 * [jquery](https://jquery.com/)  --  [Copyright](https://github.com/jquery/jquery/blob/master/LICENSE.txt) jQuery Foundation and other contributors
 
 ##Contributing
-Nounalizer was developed at the National Geospatial-Intelligence Agency (NGA). The government has "unlimited rights" and is releasing this software to increase the impact of government instruments by providing developers with the opportunity to take things in new directions. The software use, modification, and distribution rights are stipulated within the Apache 2.0 License. The Apache 2.0 license is available in LICENSE.txt. See also NOTICE file for additional information regarding dependency copyright attribution. 
+Nounalizer was developed at the National Geospatial-Intelligence Agency (NGA). The government has "unlimited rights" and is releasing this software to increase the impact of government instruments by providing developers with the opportunity to take things in new directions. The software use, modification, and distribution rights are stipulated within the Apache 2.0 License. See also NOTICE file for additional information regarding dependency attribution. 
 
 Software source code previously released under an open source license and then modified by NGA staff is considered a "joint work" (see 17 USC 101); it is partially copyrighted, partially public domain, and as a whole is protected by the copyrights of the non-government authors and must be released according to the terms of the original open source license.
 
