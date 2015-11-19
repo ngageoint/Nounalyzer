@@ -1,6 +1,6 @@
-## Origin
+## What it Does
 
-Nounalizer was developed at the [National Geospatial-Intelligence Agency](http://www.nga.mil). Analysts were spending too much time monitoring RSS feeds of news articles. Nounalizer helps distill this information faster than reading and presents the data in a visually pleasing manner. The underlying idea that provides the theory for why this works is that important things are nouns and will be mentioned more (in aggregate) than things that are not important. Let's then show noun frequency for individual RSS feeds.
+Analysts were spending too much time monitoring RSS feeds of news articles. Nounalizer helps distill this information faster than reading and presents the data in a visually pleasing manner. The underlying idea that provides the theory for why this works is that important things are nouns and will be mentioned more (in aggregate) than things that are not important. Let's then show noun frequency for individual RSS feeds.
 
 
 ![Demo](https://github.com/ngageoint/Nounalizer/blob/master/images/demo_comp.gif)
@@ -36,3 +36,9 @@ javascript:
 * [d3js](https://github.com/mbostock/d3)  --  [Copyright](https://github.com/mbostock/d3/blob/master/LICENSE) (c) 2010-2015, Michael Bostock
 * [ScrollMagic](http://scrollmagic.io/)  --  MIT
 * [jquery](https://jquery.com/)  --  [Copyright](https://github.com/jquery/jquery/blob/master/LICENSE.txt) jQuery Foundation and other contributors
+
+##Contributing
+Nounalizer was developed at the National Geospatial-Intelligence Agency (NGA). The government has "unlimited rights" and is releasing this software to increase the impact of government instruments by providing developers with the opportunity to take things in new directions. The software use, modification, and distribution rights are stipulated within the Apache 2.0 License. The Apache 2.0 license is available in LICENSE.txt. See also NOTICE file for additional information regarding dependency copyright attribution. 
+
+Software source code previously released under an open source license and then modified by NGA staff is considered a "joint work" (see 17 USC 101); it is partially copyrighted, partially public domain, and as a whole is protected by the copyrights of the non-government authors and must be released according to the terms of the original open source license.
+
