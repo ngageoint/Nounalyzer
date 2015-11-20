@@ -53,7 +53,7 @@ section {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-          background-color: #1E4D7C;
+  background-color: #1E4D7C;
 }
 /* entered */
 .entered {
