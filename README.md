@@ -32,7 +32,7 @@ Python:
 * [Feedparser](https://github.com/kurtmckee/feedparser)  --  [Copyright](https://github.com/kurtmckee/feedparser/blob/develop/LICENSE) (c) 2010-2015, Kurt McKee
 
 javascript:
-* [GreenStock](http://greensock.com/)  --  [Copyright](https://greensock.com/standard-license) (c) 2008-2015, GreenSock
+* [GreenSock](http://greensock.com/)  --  [Copyright](https://greensock.com/standard-license) (c) 2008-2015, GreenSock
 * [d3js](https://github.com/mbostock/d3)  --  [Copyright](https://github.com/mbostock/d3/blob/master/LICENSE) (c) 2010-2015, Michael Bostock
 * [ScrollMagic](http://scrollmagic.io/)  --  MIT
 * [jquery](https://jquery.com/)  --  [Copyright](https://github.com/jquery/jquery/blob/master/LICENSE.txt) jQuery Foundation and other contributors
